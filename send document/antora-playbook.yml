@@ -9,6 +9,8 @@ content:
     branches: [v2.0, v1.0]
     start_path: docs
   - url: ./modules/ROOT
+    branches: HEAD
+    start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
